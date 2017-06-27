@@ -1,9 +1,14 @@
 This project represents the prediction model for Time series (rides per region) for NY yellow taxi.
 
-## The models, that were introduced:
+## The models that were introduced:
 * Base SARIMAX model for single region 
-* SARIMAX model for clusters that describe all regions
-* to be continued
+* SARIMAX model for clusters that describe all regions:
+
+![alt text](http://savepic.ru/14657957.png)
+On the pic some regions from one cluster are shown
+* XGBoost with lags, weekly seasonality as features(no SARIMAX time series)
+
+* Tuning XGBoost, adding weather info
 
 ## Brief description:
 * The data is filtered by removing all non-significant rides: zero-time rides, non-passenger rides, etc.;
@@ -25,9 +30,13 @@ The raw data for testing models might be downloaded here: http://www.nyc.gov/htm
 ## Metrics
  todo
 
-## Visualistion
+## Visualization
 The heatmap of NY taxi rides
 
 ![alt text](http://savepic.ru/14518043.png)
 
 ![alt text](http://savepic.ru/14520088.png)
+
+Prediction example:
+
+![alt text](http://savepic.ru/14670244.png)
