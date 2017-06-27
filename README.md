@@ -5,6 +5,7 @@ This project represents the prediction model for Time series (rides per region) 
 * SARIMAX model for clusters that describe all regions:
 
 ![alt text](http://savepic.ru/14657957.png)
+
 On the pic some regions from one cluster are shown
 * XGBoost with lags, weekly seasonality as features(no SARIMAX time series)
 
@@ -20,9 +21,12 @@ region|1|2|...|2499|2500
 1 may 2016, 1 hour|5|0|...|34|0 
 1 may 2016, 2 hour|0|49|...|0|8 
 
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+
 * By choosing the threshold in average 5 rides from the region, the table is reduced: providing the set of **2500** regions, only **102** of them are significant.
+* Building simple model on weekly seasonality features: sin and cos
+* Arima params optimisation: building ACF, PACF, choosing p,q,P,Q,d,D.
+* Optimal model (AIC)
+* Repeating maram optimisation for region-clustering
 
 The raw data for testing models might be downloaded here: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
 
