@@ -1,5 +1,9 @@
 This project represents the prediction model for Time series (rides per region) for NY yellow taxi.
 
+Project page: https://www.coursera.org/learn/data-analysis-project
+Project competition page: https://inclass.kaggle.com/c/yellowtaxi/ 
+The raw data for testing models might be downloaded here: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
+
 ## The models that were introduced:
 * Base SARIMAX model for single region 
 * SARIMAX model for clusters that describe all regions:
@@ -28,11 +32,12 @@ region|1|2|...|2499|2500
 * Optimal model (AIC)
 * Repeating maram optimisation for region-clustering
 
-The raw data for testing models might be downloaded here: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
+
 
 
 ## Metrics
- todo
+
+Q_{june} = \frac1{R* 715 * 6} \sum\limits_{r=1}^{R}  \sum_{T=2016.05.31\,23:00}^{2016.06.30\,17:00}  \sum_{i=1}^6 \left| \hat{y}_{T|T+i}^r - y_{T+i}^r \right|.
 
 ## Visualization
 The heatmap of NY taxi rides
