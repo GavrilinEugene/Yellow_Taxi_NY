@@ -10,7 +10,7 @@ The raw data for testing models might be downloaded here: http://www.nyc.gov/htm
 * Base SARIMAX model for single region 
 * SARIMAX model for clusters that describe all regions:
 
-![alt text](http://savepic.ru/14657957.png)
+![alt text](https://github.com/GavrilinEugene/Yellow_Taxi_NY/blob/master/images/model_prediction.png)
 
 On the pic some regions from one cluster are shown
 * XGBoost with lags, weekly seasonality as features(no SARIMAX time series)
@@ -48,4 +48,6 @@ The heatmap of NY taxi rides
 
 Prediction example:
 
-![alt text](http://savepic.ru/14670244.png)
+![alt text](https://github.com/GavrilinEugene/Yellow_Taxi_NY/blob/master/images/predictions_example.png)
+
+![alt text](https://github.com/GavrilinEugene/Yellow_Taxi_NY/blob/master/images/prediction_error.png)
