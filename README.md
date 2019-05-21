@@ -1,7 +1,9 @@
 This project represents the prediction model for Time series (rides per region) for NY yellow taxi.
 
 Project page: https://www.coursera.org/learn/data-analysis-project
+
 Project competition page: https://inclass.kaggle.com/c/yellowtaxi/ 
+
 The raw data for testing models might be downloaded here: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
 
 ## The models that were introduced:
@@ -34,17 +36,15 @@ region|1|2|...|2499|2500
 
 
 
-
 ## Metrics
 
-- <img src="https://latex.codecogs.com/gif.latex?Q_{june} = \frac1{R* 715 * 6} \sum\limits_{r=1}^{R}  \sum_{T=2016.05.31\,23:00}^{2016.06.30\,17:00}  \sum_{i=1}^6 \left| \hat{y}_{T|T+i}^r - y_{T+i}^r \right|. /> 
+https://latex.codecogs.com/gif.latex?Q_%7Bjune%7D%20%3D%20%5Cfrac1%7BR*%20715%20*%206%7D%20%5Csum%5Climits_%7Br%3D1%7D%5E%7BR%7D%20%5Csum_%7BT%3D2016.05.31%5C%2C23%3A00%7D%5E%7B2016.06.30%5C%2C17%3A00%7D%20%5Csum_%7Bi%3D1%7D%5E6%20%5Cleft%7C%20%5Chat%7By%7D_%7BT%7CT&plus;i%7D%5Er%20-%20y_%7BT&plus;i%7D%5Er%20%5Cright%7C.
 
 ## Visualization
 The heatmap of NY taxi rides
 
-![alt text](http://savepic.ru/14518043.png)
+![alt text](https://github.com/GavrilinEugene/Yellow_Taxi_NY/blob/master/images/heatmap.png)
 
-![alt text](http://savepic.ru/14520088.png)
 
 Prediction example:
 
