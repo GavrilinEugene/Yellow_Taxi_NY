@@ -38,7 +38,7 @@ region|1|2|...|2499|2500
 
 ## Metrics
 
-https://latex.codecogs.com/gif.latex?Q_%7Bjune%7D%20%3D%20%5Cfrac1%7BR*%20715%20*%206%7D%20%5Csum%5Climits_%7Br%3D1%7D%5E%7BR%7D%20%5Csum_%7BT%3D2016.05.31%5C%2C23%3A00%7D%5E%7B2016.06.30%5C%2C17%3A00%7D%20%5Csum_%7Bi%3D1%7D%5E6%20%5Cleft%7C%20%5Chat%7By%7D_%7BT%7CT&plus;i%7D%5Er%20-%20y_%7BT&plus;i%7D%5Er%20%5Cright%7C.
+![equation](https://latex.codecogs.com/gif.latex?Q_%7Bjune%7D%20%3D%20%5Cfrac1%7BR*%20715%20*%206%7D%20%5Csum%5Climits_%7Br%3D1%7D%5E%7BR%7D%20%5Csum_%7BT%3D2016.05.31%5C%2C23%3A00%7D%5E%7B2016.06.30%5C%2C17%3A00%7D%20%5Csum_%7Bi%3D1%7D%5E6%20%5Cleft%7C%20%5Chat%7By%7D_%7BT%7CT&plus;i%7D%5Er%20-%20y_%7BT&plus;i%7D%5Er%20%5Cright%7C.)
 
 ## Visualization
 The heatmap of NY taxi rides
